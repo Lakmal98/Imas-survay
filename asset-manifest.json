@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.js": "/static/js/main.9b3dcb34.js",
-    "index.html": "/index.html",
-    "main.9b3dcb34.js.map": "/static/js/main.9b3dcb34.js.map"
+    "main.js": "/Imas-survay/static/js/main.9b3dcb34.js",
+    "index.html": "/Imas-survay/index.html",
+    "main.9b3dcb34.js.map": "/Imas-survay/static/js/main.9b3dcb34.js.map"
   },
   "entrypoints": [
     "static/js/main.9b3dcb34.js"
