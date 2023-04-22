@@ -2,7 +2,7 @@
   "name": "imas-survey",
   "version": "1.0.2",
   "private": true,
-  "homepage": "https://lakmal98.github.io/",
+  "homepage": "https://lakmal98.github.io/Imas-survay/",
   "dependencies": {
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
