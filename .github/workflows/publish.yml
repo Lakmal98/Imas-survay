@@ -1,0 +1,27 @@
+name: "🚀 deploy"
+
+on:
+    push:
+        branches: 
+         - master
+
+jobs:
+    release:
+        name: 🚀 deploy
+        runs-on: ubuntu-latest
+        steps:
+            - name: 📚 checkout
+              uses: actions/checkout@v2
+            - name: 🟢 node
+              uses: actions/setup-node@v1
+              with:
+                  node-version: '14.x'
+            - name: 📦 install dependencies
+              run: npm install 
+            - name: 🔨 build
+              run: npm run build
+            - name: 🚀 deploy
+              uses: JamesIves/github-pages-deploy-action@4.1.5
+              with:
+                branch: gh-pages
+                folder: build
